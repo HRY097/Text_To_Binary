@@ -12,7 +12,7 @@ print(Fore.GREEN'''
                                                        __/ |                                                                 
                                                       |___/                                                                  
 
-        '''Fore.WHITE)
+        ''')
 
 def text_to_bits(text, encoding='utf-8', errors='surrogatepass'):
     bits = bin(int(hexlify(text.encode(encoding, errors)), 16))[2:]
