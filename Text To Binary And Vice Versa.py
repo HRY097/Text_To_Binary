@@ -16,6 +16,7 @@ def int2bytes(i):
 def to_exit():
     sys.exit("*"*60+"\nThanks For Using\n"+"*"*60+"")
 
+print('\n',"*"*60,'\n'" Welcome To The Binary-Text Convertor "'\n',"*"*60)
 print('\n',"*"*60,'\n'" [0]  Text To Binary"'\n'" [1]  Binary To Text"'\n'" [99] Exit "'\n',"*"*60)
 
 option_input = input("Enter Your Choice : ")
@@ -24,7 +25,7 @@ if option_input == '0':
     input_for_binary = input("Enter Your Text Input : ")
     print("*"*60,'\n'"Text   : ",input_for_binary,'\n'"Binary : ",text_to_bits(input_for_binary)) 
     to_exit()
-    time.sleep(10)
+    time.sleep(15)
      
 elif option_input == '1':
     input_for_text = input("Enter Your Binary Input : ")
@@ -37,4 +38,4 @@ elif option_input == '99':
 else:
     print("*"*60 + "Invalid Input" + "*"*60)
     
-time.sleep(1000000000000000000000000000000000000000000000000000)
+time.sleep(10)
